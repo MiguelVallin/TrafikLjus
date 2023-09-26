@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(97, 95, 95);
+}
+
+.wrapBoxes {
+  background-color: rgba(247, 247, 247, 0.852);
+  display: inline-block;
+  margin: 2% 0 0 40%;
+}
+
+/* 
+
+!!!!
+
+box-sizing är automatiskt content-box,
+ om man inte definerar border-box */
+
+.redLight,
+.greenLight,
+.yellowLight {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+.redLight {
+  background-color: rgb(224, 27, 27);
+  border: 10px solid rgb(106, 11, 11);
+}
+
+.yellowLight {
+  background-color: rgb(247, 247, 8);
+  border: 10px solid rgb(178, 194, 64);
+}
+
+.greenLight {
+  background-color: rgba(25, 183, 25, 0.807);
+  border: 10px solid rgb(5, 144, 72);
+}
+
+.innerColorRed {
+  background-color: rgba(219, 219, 219, 0.764);
+  height: 50%;
+  margin: 50% 0% 0% 0%;
+}
+
+.innerColorYellow {
+  background-color: rgba(219, 219, 219, 0.764);
+  height: 50%;
+  margin: 50% 0% 50% 50%;
+}
+
+.innerColorGreen {
+  background-color: rgba(219, 219, 219, 0.764);
+  height: 50%;
+  margin: 50% 50% 50% 0%;
+}
